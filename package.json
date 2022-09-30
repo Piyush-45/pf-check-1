@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^4.0.8",
+    "keen-slider": "^6.8.2"
+  }
+}
