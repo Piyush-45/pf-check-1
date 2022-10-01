@@ -22,12 +22,14 @@ html {
     font-family: 'Libre Baskerville', serif;
     line-height: 1.4;
     scroll-behavior: smooth;
+
     /* line-height: 1.5; */
 }
 
 body {
     background-color: var(--bg-color);
     overflow-x: hidden;
+
 }
 
 a {
@@ -217,7 +219,7 @@ nav ul li a:hover::after {
     display: flex;
     position: absolute;
     flex-direction: column;
-    top: 320px;
+    top: 308px;
 
 }
 
@@ -240,9 +242,9 @@ nav ul li a:hover::after {
 /* ========== vertical line ==========  */
 .vertical_line {
     position: absolute;
-    width: 300px;
+    width: 290px;
     height: 0px;
-    top: 617px;
+    top: 590px;
     border: 1px solid #000000;
     color: #000000;
     transform: rotate(90deg);
@@ -364,9 +366,13 @@ h1 {
 }
 /* *--------------- About me section --------------- */
 .about_me{
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     background: rgba(0, 35, 88, 0.25);
 }
 .about_me_container{
@@ -376,7 +382,8 @@ h1 {
     justify-content: space-between;
     color: var(--grey-color);
     width: 100vw;
-    margin: 10rem auto;
+    margin: 2rem auto;
+    padding: 10rem auto;
     
 }
 
@@ -389,7 +396,9 @@ h1 {
     width: 100%;
     padding: 3rem;
     word-wrap: break-word;
+
 }
+
 .about_me_container svg{
     width: 30vw;
     margin-left: 10rem;
@@ -835,7 +844,12 @@ h1{
 /* === about me ==== */
 
 
-
+.about_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .about_me_container svg{
     width: 30vw;
     margin-right: 7rem;
@@ -1122,21 +1136,22 @@ textarea {
 
 
 @media screen and (max-width:365px){
-
-    .main_middle{
-        display: flex;
-        height: 90vw;
-        width: 100vw;
-        align-items: left;
-        margin: 4rem 1rem;
-        padding-inline: 0.5rem;
-     }
+.main{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
      h1{
         font-size: 3.5rem;
      }
      .main_p2{
-        font-size: 01rem;
+        font-size: 1.2rem;
         margin-top: 0.5rem;
+        word-wrap: wrap;
     }
     .main_btn{
         font-size: 1.2rem;
