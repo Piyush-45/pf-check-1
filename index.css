@@ -335,7 +335,7 @@ h1 {
     align-items: center;
     justify-content: center;
     /* gap: 10rem; */
-    background: rgba(0, 35, 88, 0.25);
+    background: #00235840;
     padding: 1.5rem 1.5rem;
 }
 .about_me_container{
@@ -348,6 +348,13 @@ h1 {
     margin: 2rem auto;
     padding: 10rem auto;
     
+}
+
+.about_p_1, .about_p_2{
+    margin-bottom: 1.8rem;
+}
+.about_p_3{
+    margin-top: 3rem;
 }
 
 .svg{
@@ -380,11 +387,53 @@ h1 {
     gap: 1.2rem;
     border-radius: 1.2rem;
     margin-bottom: 2rem;
-    border: 2px solid var(--secondary-color);
-    background: var(--grey-color);
+    border: 3px solid var(--grey-color);
+    background: white;
+}
+.skills_header{
+    color: white;
+    font-family: 'Mova';
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.skills_header{
+    font-size: 2.4rem !important;
+
+}
+.skills_icons{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.skills_icons_container{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.skills_icons .si img{
+    width: 8rem;
+    cursor: pointer;
+    border-radius: 7px;
+    object-fit: contain;
+}
+.skills_icons .si p{
+    color: white;
+    text-align: center;
+    
+}
+.skills_icons .si  img:hover p{
+    visibility: visible;
 }
 .resume-btn a{
-    color: white;
+    color: var(--bg-color);
+}
+
+
+.mobile_footer{
+    display: none;
 }
 /* *********** about me svg animations ************** */
 .right #leaves{
@@ -404,10 +453,7 @@ h1 {
       }
   }
 
-#lines_on_monitor{
-    
 
-}
 
 #upper_box{
     animation: boxes 2s infinite;
@@ -570,7 +616,7 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 4px solid var(--secondary-color);
+    
     
   }
 
@@ -781,7 +827,10 @@ h1{
     padding: 2rem;
     word-wrap: break-word;
 }
-
+.skills_icons .si img{
+    width: 3rem;
+    object-fit: contain;
+}
 /* ++++++++ my work section ++++++ */
 .my_work{
     width: 99vw;
@@ -842,6 +891,11 @@ h1{
     width: 100%;
     padding: 1.5rem;
     word-wrap: break-word;
+}
+
+.skills_header{
+    margin-top: 1.8rem;
+
 }
     /* === service section ==== */
     .service-box {
@@ -1025,8 +1079,48 @@ margin: 1.4rem 1rem;
     
 }
 }
+/* ==== mobile foooter ===== */
+.mobile_footer{
+    display: block;
+    padding: 4rem 1rem;
+}
+.mobile_footer a{
+    color: var(--secondary-color);
+    font-size: 7rem;
+    font-family: 'Mova';
+    font-style: normal;
+    font-weight: 400;
+    /* text-align: center; */
+    cursor: pointer;
 
+}
+.mobile_footer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    
 
+}
+.mobile_footer_container img{
+    background: white;
+    border: 3px solid var(--grey-color);
+}
+.soical_icons{
+    display: flex;
+    gap: 2.5rem;
+   
+}
+.footer_contact {
+    font-size: 1.3rem;
+    color: white;
+}
+.footer_contact a{
+    color: #EAEBED;
+    font-size: 1.5rem;
+    
+}
 @media screen and (max-width:570px) {
     .main_middle{
         display: flex;
