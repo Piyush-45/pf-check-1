@@ -9,6 +9,8 @@
         content="my portfolio website to showcase the work I have done so far, the services I provide and all my professionals life.">
     <!-- google fonts -->
     <link rel="stylesheet" href="index.css">
+    <!-- scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Portfolio</title>
@@ -22,11 +24,11 @@
 
     <header class="header">
         <div class="logo">
-            <a href="index.html" class="hidden">Pt.</a>
+            <a href="index.html" class="">Pt.</a>
         </div>
         <nav>
             <ul>
-                <li><a href="#contact_me" class="contact_li hidden"><img src="/images/icons8-dots-24.png" alt="">
+                <li><a href="#contact_me" class="contact_li "><img src="/images/icons8-dots-24.png" alt="">
                         contact</a></li>
 
             </ul>
@@ -35,8 +37,8 @@
 
     <main class="main  ">
 
-        <div class="left_icons hidden">
-            <div class="main_icons_container hidden">
+        <div class="left_icons ">
+            <div class="main_icons_container ">
                 <div class="icons"><a href="https://github.com/Piyush-45"><img src="/images/9180012291543238893-128.png"
                             alt=""></a></div>
                 <div class="icons"></div>
@@ -48,14 +50,12 @@
 
         <div class="main_middle ">
 
-            <p class="main_p hidden">Hi my name is</p>
-            <h1 class="hidden">PIYUSH TYAGI.</h1>
-            <div class="heading2_p hidden"> Web design that feels right.</div>
-            <p class="main_p2 hidden ">A frontend focused web developer with expertise in VanillaJs, who writes clean,
-                elegant
-                and efficient code.</p>
-            <button class="main_btn hidden">
-                <a href="#contact_me" class="hidden">Let's Connect</a>
+            <p class="main_p ">Hi my name is</p>
+            <h1 class="piyushtyagi">PIYUSH TYAGI.</h1>
+            <div class="heading2_p "> Web design that feels right.</div>
+            <p class="main_p2  ">A frontend focused web developer with expertise in VanillaJs, who writes clean,elegant and efficient code.</p>
+            <button class="main_btn ">
+                <a href="#contact_me" class="">Let's Connect</a>
             </button>
 
         </div>
@@ -63,7 +63,7 @@
 
 
         <div class="side_email ">
-            <div class="email  hidden">
+            <div class="email  ">
                 <a href="#contact_me">
                     <div>t</div>
                     <div>y</div>
@@ -97,15 +97,17 @@
         </div>
 
     </main>
+
+
     <!-- our about section -->
     <section class="about_me " id="about_me">
 
         <div class="heading_main">
-            <h1 class="About_h1 hidden">About me</h1>
-            <div class="underline hidden"></div>
+            <h1 class="About_h1 ">About me</h1>
+            <div class="underline "></div>
         </div>
         <div class="about_me_container">
-            <div class="left hidden">
+            <div class="left ">
                 <div class="text_about_me">
                     <div class="about_p_1"> Hello ! My Name is Piyush Tyagi. I'm a self taught <span>Frontend Web
                             Developer</span>
@@ -122,7 +124,7 @@
 
                     </div>
                     <div class="skills_icons">
-                        <div class="skills_header description">MY Skills :</div>
+                        <div class="skills_header description">MY Skills </div>
 
                         <div class="skills_icons_container">
                             <div class="html si"><img src="/images/html svg.png" alt="">
@@ -149,7 +151,7 @@
                 </div>
 
             </div>
-            <div class="right hidden">
+            <div class="right ">
                 <div class="svg">
                     <svg viewBox="0 0 803 508" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Frame" clip-path="url(#clip0_26_12)">
@@ -434,7 +436,7 @@
 
         </div>
         <div class="resume">
-            <button class="resume-btn hidden">
+            <button class="resume-btn ">
                 <a href="#" class="">Download CV</a>
                 <img src="/cv.png" alt="">
             </button>
@@ -444,14 +446,14 @@
 
     <!-- our service section -->
 
-    <section class="service-section hidden" id="services">
+    <section class="service-section " id="services">
         <div class="service-container">
             <div class="heading_main">
                 <h1 class="contact_us_h1">Services Offered</h1>
                 <div class="underline"></div>
             </div>
 
-            <div class="service-flex">
+            <div class="service-flex hidden">
                 <div class="service-box">
                     <img src="/images/web_design_color_scheme.svg" class="service-icon" alt="">
                     <h3>WEB DESIGN</h3>
@@ -484,7 +486,7 @@
     </section>
     <!-- ======= my work ============  -->
 
-    <section class="my_work hidden" id="my_work">
+    <section class="my_work " id="my_work">
         <div class="container">
             <div class="heading_main">
                 <h1 class="contact_us_h1">My Projects</h1>
@@ -600,17 +602,17 @@
     <section class="section section-contact section--hidden " id="contact_me">
 
         <div class="container">
-            <div class="heading_main hidden">
+            <div class="heading_main ">
                 <h1 class="contact_us_h1 ">Let's Talk</h1>
                 <div class="underline"></div>
             </div>
 
-            <p class="contact_para hidden">
+            <p class="contact_para ">
 
                 I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity
                 that matches my skills and experience then don't hesitate to contact me.
             </p>
-            <div class="section-contact-main container hidden">
+            <div class="section-contact-main container ">
                 <form action="https://formspree.io/f/xgeqvgvw" method="POST">
                     <div class="grid grid-two-col ">
                         <input type="text" name="username" id="" required placeholder="Name" />
@@ -639,11 +641,12 @@
                 <div class="footer_logo">Pt.</div>
             </a>
             <div class="soical_icons">
-                <div class="icons"><a href="https://github.com/Piyush-45"><img src="/images/9180012291543238893-128.png" alt=""></a></div>
+                <div class="icons"><a href="https://github.com/Piyush-45"><img src="/images/9180012291543238893-128.png"
+                            alt=""></a></div>
                 <div class="icons"><a href=""><img src="/images/17877387901543238938-128.png" alt=""></a></div>
                 <div class="icons"><a href=""><img src="/images/3741527631617463023-128.png" alt=""></a></div>
             </div>
-            <p class="footer_contact"> © 2022 Piyush Tyagi- <a href="#contact_me" > Contact</a></p>
+            <p class="footer_contact"> © 2022 Piyush Tyagi- <a href="#contact_me"> Contact</a></p>
         </div>
     </section>
 
@@ -672,8 +675,26 @@
         });
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- ==== scroll reveal ===== -->
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2000,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.text_about_me, .left', { delay: 600, origin:'left' });
+        ScrollReveal().reveal('.right ,.contact_li, .email , .work_right', { delay: 600, origin:'right',  });
+        ScrollReveal().reveal('.logo , .left_icons img, .resume', { delay: 300, origin:'left', interval:200});
+        ScrollReveal().reveal('.main_p ', { delay: 600, origin:'top',  });
+        ScrollReveal().reveal(' .heading2_p, .piyushtyagi', { delay: 600, origin:'top',  });
+        ScrollReveal().reveal('.main_p2, .main_btn', { delay: 600, origin:'bottom' });
+        ScrollReveal().reveal('.heading_main', { delay: 400, origin:'left' });
+
+    </script>
     <script>
 
         var loader = document.getElementById('preloader')
